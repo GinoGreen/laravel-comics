@@ -47,7 +47,7 @@ main {
 main #jumbotrone {
   width: 100%;
   height: 530px;
-  background-image: url("../assets/img/jumbotron.jpg");
+  background-image: url("/img/jumbotron.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -123,13 +123,13 @@ section.shortcut .thumb h4 {
 }
 
 footer .lists {
-  background-image: url("../assets/img/footer-bg.jpg");
+  background-image: url("/img/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 footer .lists .bg-dc-logo {
   display: flex;
-  background-image: url("../assets/img/dc-logo-bg.png");
+  background-image: url("/img/dc-logo-bg.png");
   background-position: right;
   background-repeat: no-repeat;
 }

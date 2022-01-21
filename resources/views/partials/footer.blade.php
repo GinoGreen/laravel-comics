@@ -3,13 +3,13 @@
    <div class="lists">
       <div class="container bg-dc-logo">
          
-         @foreach (config('footer_lists') as $lists) 
+         @foreach (config('footer_lists') as $list) 
             <div class="list">
-               <h4>{{ $lists['listTitle'] }}</h4>
+               <h4>{{ $list['listTitle'] }}</h4>
                <ul>
-                  @foreach ($lists as $list)
+                  @foreach ($list['text'] as $list_item)
                   <li>
-                     <a href="#">{{ $list['text'] }}</a>
+                     <a href="#">{{ $list_item }}</a>
                   </li>
                   @endforeach
                </ul>

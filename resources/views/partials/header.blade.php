@@ -5,10 +5,10 @@
    <ul>
       @foreach (config('menu') as $section)
          <li>
-            {{-- <a 
-               class="{{ Route::currentRoutName() === $section['route'] ? 'active' : '' }}" 
-               href="{{ route($section['route']) }}"
-            >{{ $section['title'] }}</a> --}}
+            <a 
+               class="{{ 'comics' === $section['route'] ? 'active' : '' }}" 
+               href="#"
+            >{{ $section['title'] }}</a>
          </li>
       @endforeach
    </ul>
