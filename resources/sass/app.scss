@@ -1,0 +1,12 @@
+//
+@import 'partials/vars';
+@import 'partials/mixins';
+@import 'partials/header';
+@import 'partials/main';
+@import 'partials/shortcut';
+@import 'partials/templaceCard';
+@import 'partials/footer';
+
+body {
+   overflow-x: hidden;
+}
