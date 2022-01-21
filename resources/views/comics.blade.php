@@ -10,7 +10,7 @@
    </div>
 
    <section id="thumbs" class="container">
-      @foreach (config('comics') as $comic_book)
+      @foreach ($comics as $comic_book)
          <div class="myCard">
             <div class="img-square-container">
                <img src="{{ $comic_book['thumb'] }}" alt="{{ $comic_book['series'] }}">
